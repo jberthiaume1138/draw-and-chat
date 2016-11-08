@@ -1,11 +1,15 @@
 {
   "name": "draw-and-chat",
   "version": "1.0.0",
-  "description": "",
+  "description": "Socket.IO based chat and Pictionary clone",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.5.1"
+  }
 }
